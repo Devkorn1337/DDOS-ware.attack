@@ -22,15 +22,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 os.system("clear")
 os.system("figlet BLLETWARE | lolcat")
-print
-print
-ip = raw_input("IP Target : ")
-port = input("Port      :  ")
-
-os.system("claer")
-os.system("figlet SHOOT ! ! | lolcat")
-
-print ("""
+print("""
 ██████╗ ██████╗  ██████╗ ███████╗    ██████╗ ██╗   ██╗    ██████╗ ███████╗██╗   ██╗    ██╗  ██╗ ██████╗ ██████╗ ███╗   ██╗
 ██╔══██╗██╔══██╗██╔═══██╗██╔════╝    ██╔══██╗╚██╗ ██╔╝    ██╔══██╗██╔════╝██║   ██║    ██║ ██╔╝██╔═══██╗██╔══██╗████╗  ██║
 ██║  ██║██║  ██║██║   ██║███████╗    ██████╔╝ ╚████╔╝     ██║  ██║█████╗  ██║   ██║    █████╔╝ ██║   ██║██████╔╝██╔██╗ ██║
@@ -42,6 +34,12 @@ print ("""
  Gmail : Backend1337@gmail.com
        
       """)
+ip = raw_input("IP Target : ")
+port = input("Port      :  ")
+
+os.system("claer")
+os.system("figlet SHOOT ! ! | lolcat")
+
        
 print "[                     ] 0% "
 time.sleep(3)

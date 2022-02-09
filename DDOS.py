@@ -28,7 +28,7 @@ print("""
  Gmail : Backend1337@gmail.com
        
       """)
-ip = raw_input("IP Target : ")
+ip = input("IP Target : ")
 port = input("Port      :  ")
 
 os.system("claer")

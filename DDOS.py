@@ -41,15 +41,15 @@ os.system("claer")
 os.system("figlet SHOOT ! ! | lolcat")
 
        
-print "[                     ] 0% "
+print ("[                     ] 0% ")
 time.sleep(3)
-print "[=====>               ] 25%"
+print ("[=====>               ] 25%")
 time.sleep(3)
-print "[==========>          ] 50%"
+print ("[==========>          ] 50%")
 time.sleep(3)
-print "[===============>     ] 75%"
+print ("[===============>     ] 75%")
 time.sleep(3)
-print "[====================>] 100%"
+print ("[====================>] 100%")
 time.sleep(3)
 sent = 0
 while True:
